@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 700px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+</head>
+<body>
+
+<centre> <h2>ABOUT NATURE</h2></centre>
+
+<div class="row">
+  <div class="column" style="background-color:rgb(93, 213, 167);">
+    <h2>National Flower</h2>
+        <img id="nn" src="C:\Users\RASI\Pictures\Saved Pictures\1.jpg" alt="Nature" width="20%" height="20%"><br>
+    <a href ="#1"><input type="button"  id ='h' value="ABOUT" ><BR><br></a>
+  </div>
+  <div class="column" style="background-color:rgb(222, 51, 39);">
+    <h2>Lotus</h2>
+    <p>Some text..</p>
+  </div>
+</div>
+
+</body>
+</html>
