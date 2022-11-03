@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+text-align:;
+color: blue;
+}
+.text {
+  text-align: center;
+  color: red;
+  font-family: "Times new roman";
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+ }
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+ }
+</style>
+</head>
+<body>
+<!--FORM elements-->
+<form action = "action.html" method = "get">
+<h1> Employee Database</h1>
+<div class="myDiv">
+<div class="text">
+Enter name:<input type="name" name="uname" size="30"><br>
+Enter age:<input type="number" name="age" size="30"><br>
+Enter email:<input type = "email" value = "" name = "emailid” size = "30" placeholder = "Enter a valid email address"><br>
+Enter Mbno:<input type="number" name="mbno" size="30" pattern="[0-9]{10}"><br>
+<!--FORM elements-->
+<label for="gender">Gender: </label>
+<input type="radio" id="gender" name="gender" value="male"/>Male
+<input type="radio" id="gender" name="gender" value="female"/>Female
+<br/>
+</div>
+</div>
+</form>
+</body>
+</html>
